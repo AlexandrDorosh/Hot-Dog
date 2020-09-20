@@ -1,0 +1,29 @@
+.header span{
+    background-color: #494848;
+    padding: 2px 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.header_hr {
+    size: 3px;
+}
+
+.header_logo{
+    width: 80px;
+    margin-right: 10px;
+}
+
+.header-link{
+    color: gray;
+}
+
+.header-link:hover{
+    color: black;
+}
+
+.header_flex{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
