@@ -3,40 +3,18 @@ import ReactDOM from 'react-dom';
 import uuid from "uuid";
 import './index.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Header from "./Header/header";
-import AddHotDog from "./AddHotDog/AddHotDog";
-import HotDogsList from './HotDogsList/HotDogsList';
-import EditHotDog from './EditHotDog/EditHotDog';
+
+// Components
+import Header from "./Components/Header/header";
+import AddHotDog from "./Components/AddHotDog/AddHotDog";
+import HotDogsList from './Components/HotDogsList/HotDogsList';
+import EditHotDog from './Components/EditHotDog/EditHotDog';
 
 class App extends React.Component{
   state = {
     List: [],
     currentHotDog: "",
   };
-
-  // componentDidMount(){
-  //   this.updateHotDog();
-  //  }
- 
-  //  updateHotDog = () => {
-  //    fetch(this.List)
-  //    .then(response => {
-  //      return response.json();
-  //    })
-  //    .then(list => {
-  //      if(list == null){
-  //        this.setState({
-  //          List: []
-  //        })
-  //      }
-  //      else{
-  //        this.setState({
-  //        List: list
-  //      })
-  //      }
-  //    })
-  //    .catch(err => console.log(err));
-  //  };
 
   onAddHotDog = (name, price, description, image) => {
     let newHotDog = {

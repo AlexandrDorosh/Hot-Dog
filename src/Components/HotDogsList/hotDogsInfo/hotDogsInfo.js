@@ -1,7 +1,6 @@
 import React from "react";
 import './hotDogsInfo.css';
 import {Link} from "react-router-dom";
-// import EditHotDog from "../../EditHotDog/EditHotDog";
 
 
 class HotDogsInfo extends React.Component{

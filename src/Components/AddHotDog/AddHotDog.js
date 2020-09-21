@@ -70,7 +70,7 @@ class AddHotDog extends React.Component{
 
                     <input 
                     type='url' 
-                    placeholder='Image' 
+                    placeholder='image URL-address' 
                     className='form-control' 
                     onChange={this.getImage}/>
                    <button className="edit" type='submit'>Add new hot-dog</button>

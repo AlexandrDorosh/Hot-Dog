@@ -89,7 +89,7 @@ class EditHotDog extends React.Component{
                     
                     <input 
                     type='url' 
-                    placeholder='image'
+                    placeholder='image URL-address'
                     value={image}
                     className='form-control' 
                     onChange={this.getImage}
